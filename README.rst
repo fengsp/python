@@ -8,7 +8,8 @@ Why
 
 **Coding Style Matters.**
 
-If you still do not take this seriously, google `why-coding-style-matters` or
+If you still do not take this seriously, google `why coding style matters 
+<https://www.google.com.hk/search?q=why%20coding%20style%20matters>`_ or
 ask anyone who is professional.
 
 Links
