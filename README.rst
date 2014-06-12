@@ -148,8 +148,8 @@ When raising an exception, use ``raise ValueError('message')``.
 When catching exceptions, mention specific exceptions whenever possible
 instead of using a bare ``except:`` clause.
 
-When a resource is local to a particular section of code, use a with statement
-to ensure it is cleaned up promptly and reliably after use.
+When a resource is local to a particular section of code, use a ``with``
+statement to ensure it is cleaned up promptly and reliably after use.
 
 Object type comparisons should always use ``isinstance()`` instead of comparing
 types directly.
