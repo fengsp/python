@@ -61,8 +61,8 @@ docstrings should be formatted in reStructuredText as understood by Sphinx.
 
         Continuation lines should align wrapped elements either vertically
         using Python's implicit line joining inside parentheses, brackets
-        and braces or use backslashes, in which case you should align the next
-        line with the last dot or equal sign or indent four spaces.
+        and braces or use backslashes, in which case you should align the
+        next line with the last dot or equal sign or indent four spaces.
         """
         print(param_one)
         print(param_two)
