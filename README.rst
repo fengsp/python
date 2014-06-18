@@ -61,13 +61,21 @@ docstrings should be formatted in reStructuredText as understood by Sphinx.
 
         Continuation lines should align wrapped elements either vertically
         using Python's implicit line joining inside parentheses, brackets
-        and braces.
+        and braces or use backslashes, in which case you should align the next
+        line with the last dot or equal sign or indent four spaces.
         """
         print(param_one)
         print(param_two)
 
         print(param_three)
         print(param_four)
+
+        this_is_a_very_long(function_call, 'with many parameters') \
+            .that_returns_an_object_with_an_attribute
+
+        MyModel.query.filter(MyModel.scalar > 120) \
+                     .order_by(MyModel.name.desc()) \
+                     .limit(10)
 
 
     foo = long_function_name(var_one, var_two,
